@@ -120,5 +120,5 @@ function del(event) {
 
 function like(event) {
     likeTag = event.target;
-    likeTag.style.color="red";
+    likeTag.classList.toggle("toggle");
 }
